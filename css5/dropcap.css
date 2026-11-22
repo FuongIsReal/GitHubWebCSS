@@ -12,5 +12,5 @@ p:first-letter {
     column-rule: 1px solid blue;
     -webkit-column-count: 3;
     -webkit-column-rule: 1px solid blue;
-    text-align: justify; /* căn đều hai bên giống hình */
+    
 }
