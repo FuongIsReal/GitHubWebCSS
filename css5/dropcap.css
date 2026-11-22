@@ -1,32 +1,16 @@
-body {
-    font-family: Arial, sans-serif;
+p:first-letter {
+    float: left;
+    font-size: 45px;
+    line-height: 1;
+    font-weight: bold;
+    margin-right: 9px;
 }
 
-ul {
-    list-style: none;
-    width: 200px;
-    margin: 60px auto;
-    padding: 10px;
-    background-color: #ddd;
-}
-
-li {
-    margin-bottom: 8px;
-    text-align: center;
-}
-
-li a {
-    display: block;
-    padding: 10px;
-    background-color: #f8f8f8;
-    border: 1px solid #aaa;
-    border-radius: 5px;
-    color: #000;
-    text-decoration: none;
-}
-
-/* ===== CSS transform theo sách ===== */
-li a:hover {
-    -webkit-transform: rotate(-10deg) scale(2);
-    transform: rotate(-10deg) scale(2);
+/* Chia nội dung thành 3 cột (mục 2.4.2 và mục 2.4.1 sửa đổi) */
+.baiviet {
+    column-count: 3;
+    column-rule: 1px solid blue;
+    -webkit-column-count: 3;
+    -webkit-column-rule: 1px solid blue;
+    text-align: justify; /* căn đều hai bên giống hình */
 }
